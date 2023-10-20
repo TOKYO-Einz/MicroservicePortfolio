@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="movie-service" />
+        <module name="gateway-parcial" />
+        <module name="serie-service" />
+        <module name="config-server-parcial" />
+        <module name="eureka-server-parcial" />
+        <module name="catalog-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="catalog-service" options="-parameters" />
+      <module name="config-server-parcial" options="-parameters" />
+      <module name="eureka-server-parcial" options="-parameters" />
+      <module name="gateway-parcial" options="-parameters" />
+      <module name="movie-service" options="-parameters" />
+      <module name="serie-service" options="-parameters" />
+    </option>
+  </component>
+</project>
